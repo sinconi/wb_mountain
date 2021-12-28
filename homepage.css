@@ -1,0 +1,276 @@
+body {
+  background-color: #354147;
+}
+
+.bg_linear {
+  background: linear-gradient(330.24deg, rgba(11, 29, 38, 0) 31.06%, #0B1D26 108.93%);
+  height: 1200px;
+}
+
+.bg_linear header {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 30px;
+}
+
+.bg_linear header h2 {
+  font-weight: 300;
+}
+
+.bg_linear header ul {
+  list-style: none;
+}
+
+.bg_linear header ul li {
+  margin: 0 15px;
+}
+
+.bg_linear header .cart img {
+  width: 24px;
+  height: 24px;
+}
+
+.bg_linear .wrapper_title {
+  margin: 30px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.bg_linear .wrapper_title nav p.mixed {
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
+  text-orientation: mixed;
+  color: white;
+  margin: 10px 0;
+}
+
+.bg_linear .wrapper_title nav a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 24px;
+  height: 24px;
+}
+
+.bg_linear .wrapper_title .title_text p.hik_gui {
+  color: #FBD784;
+  font-weight: 800;
+  font-size: 18px;
+  font-family: Gilroy;
+  letter-spacing: 6px;
+}
+
+.bg_linear .wrapper_title .title_text p.hik_gui span {
+  letter-spacing: normal;
+}
+
+.bg_linear .wrapper_title .title_text h1 {
+  font-family: Chronicle Display;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 88px;
+  line-height: 100px;
+  color: white;
+}
+
+.bg_linear .wrapper_title .title_text .scr_dow {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: white;
+}
+
+.bg_linear .wrapper_title nav.scroll ul {
+  list-style: none;
+}
+
+.bg_linear .wrapper_title nav.scroll ul li {
+  padding: 5px 15px 5px 15px;
+  border-right: 3px solid #ffffff50;
+}
+
+.bg_linear .wrapper_title nav.scroll ul li a {
+  color: white;
+}
+
+.bg_linear .wrapper_title nav.scroll ul li a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.bg_linear .wrapper_title nav.scroll ul li.clickActive {
+  border-right: 3px solid #ffffff;
+}
+
+.bg_linear .mountain {
+  position: relative;
+}
+
+.bg_linear .mountain figure {
+  margin: 0;
+  padding: 0;
+}
+
+.bg_linear .mountain figure img {
+  width: 100%;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+.bg_linear .mountain figure.mg {
+  top: -6%;
+  position: absolute;
+  z-index: -2;
+}
+
+.bg_linear .mountain figure.vg {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(35%);
+          transform: translateY(35%);
+  z-index: -1;
+}
+
+.bg_linear2 {
+  margin-top: 15px;
+  position: relative;
+}
+
+.bg_linear2 .bg_black {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(11, 29, 38, 0)), color-stop(61.38%, #354147));
+  background: linear-gradient(180deg, rgba(11, 29, 38, 0) 0%, #354147 61.38%);
+  height: 300px;
+  width: 100%;
+  -webkit-transform: translateY(0%);
+          transform: translateY(0%);
+  z-index: -1;
+  position: absolute;
+  top: 0%;
+}
+
+.bg_linear2 section {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bg_linear2 section p.number {
+  font-size: 240px;
+  line-height: 240px;
+  color: #FFFFFF;
+  opacity: 0.1;
+}
+
+.bg_linear2 section .content {
+  margin-top: -120px;
+  margin-left: 150px;
+}
+
+.bg_linear2 section .content p:nth-of-type(1) {
+  color: #FBD784;
+  font-weight: 800;
+  font-size: 18px;
+  font-family: Gilroy;
+  letter-spacing: 6px;
+}
+
+.bg_linear2 section .content p:nth-of-type(1) span {
+  letter-spacing: normal;
+}
+
+.bg_linear2 section .content h1 {
+  font-size: 64px;
+  color: white;
+}
+
+.bg_linear2 section .content p:nth-of-type(2) {
+  font-size: 18px;
+  line-height: 32px;
+  color: white;
+}
+
+.bg_linear2 section .content a {
+  font-size: 18px;
+  color: #FBD784;
+}
+
+.bg_linear2 section figure {
+  width: 566px;
+  height: 720px;
+}
+
+.bg_linear2 section figure img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+footer {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 100px;
+}
+
+footer .foo_left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 40%;
+}
+
+footer .foo_left .title h2, footer .foo_left .title p {
+  color: white;
+}
+
+footer .foo_left .title p {
+  font-size: 18px;
+  line-height: 32px;
+}
+
+footer .foo_left p {
+  color: #FFFFFF;
+  font-size: 18px;
+}
+
+footer .foo_right ul {
+  list-style: none;
+  color: #FBD784;
+  font-size: 24px;
+}
+
+footer .foo_right ul li {
+  margin: 15px;
+  line-height: 32px;
+}
+
+footer .foo_right ul li a {
+  font-size: 18px;
+  color: white;
+}
+
+footer .foo_right ul li a:hover {
+  text-decoration: none;
+}
+/*# sourceMappingURL=homepage.css.map */

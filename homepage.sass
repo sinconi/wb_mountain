@@ -1,0 +1,201 @@
+$colorWhite: white
+
+
+
+@mixin goldText
+    color: #FBD784
+    font-weight: 800
+    font-size: 18px
+    font-family: Gilroy
+    letter-spacing: 6px
+
+body
+    background-color: #354147
+.bg_linear
+    background: linear-gradient(330.24deg, rgba(11, 29, 38, 0) 31.06%, #0B1D26 108.93%)
+    
+    height: 1200px
+    // overflow: hidden
+
+    header
+        color: $colorWhite
+        display: flex
+        justify-content: space-between
+        padding: 30px
+        h2
+            font-weight: 300
+        ul
+            list-style: none
+            li
+                margin: 0 15px
+
+        .cart
+            img
+                width: 24px
+                height: 24px
+
+    .wrapper_title
+        margin: 30px
+        justify-content: space-between
+        nav
+            p.mixed
+                writing-mode: vertical-lr
+                text-orientation: mixed
+                color: white
+                margin: 10px 0
+            a
+                display: flex
+                margin: 10px 0
+                flex-direction: column
+                width: 24px
+                height: 24px
+        .title_text
+            p.hik_gui
+                +goldText
+                span
+                    letter-spacing: normal
+            
+            h1
+                font-family: Chronicle Display
+                font-style: normal
+                font-weight: 600
+                font-size: 88px
+                line-height: 100px
+                color: white
+            .scr_dow
+                font-family: Gilroy
+                font-style: normal
+                font-weight: bold
+                font-size: 18px
+                line-height: 22px
+                color: white
+        nav.scroll
+            ul
+                list-style: none
+                
+
+                li
+                    padding: 5px 15px 5px 15px
+                    border-right: 3px solid #ffffff50
+                    a
+                        color: white
+                        &:hover
+                            color: white
+                            text-decoration: none
+                    &.clickActive
+                        border-right: 3px solid #ffffff
+                        
+    .mountain
+        position: relative
+        figure
+            margin: 0
+            padding: 0
+            img
+                width: 100%
+                object-fit: fill 
+
+        figure.mg
+            top: -6%
+            position: absolute
+            z-index: -2
+
+
+        figure.vg
+            
+            transition: .5s
+            position: absolute
+            top: 50%
+            transform: translateY(35%)
+            z-index: -1
+
+        
+
+
+
+
+
+.bg_linear2
+    // background-color: #354147
+    margin-top: 15px
+    position: relative
+    .bg_black
+        background: linear-gradient(180deg, rgba(11, 29, 38, 0) 0%, #354147 61.38%)
+        height: 300px
+        width: 100%
+        transform: translateY(0%)
+        // margin-bottom: -170px
+        z-index: -1
+        position: absolute
+        
+        top: 0%
+    
+    section
+        
+        align-items: center
+        justify-content: center
+
+        p.number
+            font-size: 240px
+            line-height: 240px
+            color: #FFFFFF
+            opacity: 0.1
+        .content 
+            margin-top: -120px
+            margin-left: 150px
+            p:nth-of-type(1)
+                +goldText
+
+                span
+                    letter-spacing: normal
+            h1
+                font-size: 64px
+                color: white
+
+            p:nth-of-type(2)
+                font-size: 18px
+                line-height: 32px
+                color: white
+            a
+                font-size: 18px
+                color: #FBD784
+        figure
+            width: 566px
+            height: 720px
+            img
+                width: 100%
+                object-fit: cover
+
+footer
+    justify-content: space-between
+    margin-top: 100px
+
+    .foo_left
+        display: flex
+        align-content: space-between
+        flex-wrap: wrap
+        width: 40%
+
+        .title
+            h2,p
+                color: white
+            p
+                font-size: 18px
+                line-height: 32px
+        p
+            color:#FFFFFF
+            font-size: 18px
+
+    .foo_right
+        ul
+            list-style: none
+            color: #FBD784
+            font-size: 24px
+            li
+                margin: 15px
+                line-height: 32px
+
+                a
+                    font-size: 18px
+                    color: white
+                    &:hover
+                        text-decoration: none
